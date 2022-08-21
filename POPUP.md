@@ -1,13 +1,17 @@
 # Popup tracking
 
-[WIP] An implementation of the Popup API from vim in Neovim. Hope to upstream
-when complete
+[WIP] An implementation of the Popup API from vim in Neovim.
+Hope to upstream  when complete
 
 ## Goals
 
-Provide an API that is compatible with the vim `popup_*` APIs. After
-stablization and any required features are merged into Neovim, we can upstream
-this and expose the API in vimL to create better compatibility.
+Provide an API that is
+compatible with the vim `popup_*` APIs.
+After stablization and
+any required features are merged into Neovim,
+we can upstream this and
+expose the API in ¿vimL¿ to create better compatibility.
+
 
 ## Notices
 - **2021-09-19:** we now follow Vim's convention of the first line/column of the screen being indexed 1, so that 0 can be used for centering.
